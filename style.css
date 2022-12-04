@@ -69,8 +69,9 @@ input {
 	}
 
 	button {
-		width: 6rem;
-		height: 2rem;
+		width: 9rem;
+		height: 3rem;
+		margin: 3rem 1rem;
 	}
 
 	button:hover {
