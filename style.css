@@ -1,0 +1,79 @@
+body {
+	font: 'Raleway', sans-serif;
+	color: rgba(0, 0, 0, .5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	top: 15%;
+	background: linear-gradient(to right, rgb(19, 87, 118), rgb(112, 52, 16));
+}
+
+h1 {
+	font: 600 3.5em 'Raleway', sans-serif;
+	color: rgba(0, 0, 0, .5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+	width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+	color: rgba(0, 0, 0, .5);
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 0.05em;
+}
+
+.button {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+button {
+	color: white;
+	background-color: rgba(0, 0, 0, .5);
+	width: 9rem;
+	height: 3rem;
+	margin: 6rem 2rem;
+}
+
+button:hover {
+	transform: translateY(-5px);
+	transition: all 0.5s;
+  	cursor: pointer;
+}
+
+input {
+	width: 9rem;
+	height: 3rem;
+	background-color: rgb(0, 0, 0);
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 2em;
+		letter-spacing: .2em;
+	}
+
+	input {
+		width: 6rem;
+		height: 2rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	button {
+		width: 6rem;
+		height: 2rem;
+	}
+
+	button:hover {
+		transform: translateY(0);
+	}
+}
